@@ -1,0 +1,351 @@
+html{
+  cursor: pointer;
+}
+body {
+  background-image: url(./images/background-home-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+  font-family: 'Cairo', sans-serif;
+
+}
+.logo-img{
+  z-index: 1;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 60px;
+  opacity: .8;
+}
+hr {
+  width: 37%;
+  position: relative;
+  left: 130px;
+  top: 55px;
+  z-index: 1;
+  color: rgb(136, 135, 135);
+}
+
+.topnav {
+  overflow: hidden;
+  backdrop-filter: blur(18px);
+  background-color: rgba(255, 255, 255, 0.2);
+  float: right;
+  width: 860px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  height: 60px;
+  margin-top: 15px;
+  font-size: small;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 40px;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid white;
+  border-radius: 3px;
+}
+.topnav a.active{
+  border-bottom: 3px solid white;
+
+}
+.countspan {
+  padding-right: 5px;
+  font-weight: bold;
+}
+.topnav2{
+  padding-left: 200px;
+  margin-right: 0px;
+
+}
+.content {
+  padding-top: 240px;
+  padding-left: 170px;
+  word-spacing: 4px;
+  font-weight: lighter;
+  width: 40%;
+}
+.intro {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+}
+.spaceword {
+  padding-left: 20px;
+  font-size: 120px;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: oblique;
+}
+
+.circle {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 1200px;
+  bottom: 185px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.cirrr{
+  text-decoration: none;
+
+}
+.page-title{
+  padding-top: 140px;
+  padding-left: 140px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
+}
+
+.page-title-num{
+opacity: .3;
+}
+.mars{
+  padding-left: 240px;
+  padding-top: 65px;
+ width: 640px;
+ height: 450px;
+}
+
+
+.plants {
+  overflow: hidden;
+  padding-left: 230px;
+  float: right;
+  width: 860px;
+}
+
+.plants a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 30px;
+  font-size: small;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: .7;
+}
+.plants-content{
+ float: right;
+margin-right: 240px;
+ width: 25%;
+ display: flex;
+  flex-direction: column;
+position: relative;
+bottom: 380px;
+
+}
+.plant-title{
+  font-size: 100px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  opacity: .7;
+  margin-top: 15px;
+}
+.activePlant, .plant:hover {
+  border-bottom: 3px solid white ;
+  opacity: 1;
+  
+} 
+.open{
+  border-bottom: 3px solid white ;
+  opacity: 1;
+  color: #fff;
+}
+.p{
+  font-size: 15px ;
+  
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;  
+  font-family: 'Times New Roman', Times, serif;
+  width: 400PX;
+}
+
+.mini-title{
+  font-size: 8px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: .5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+  word-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: .7;
+}
+
+h3{
+  padding-top: 120px;
+  font-size: 22px;
+  padding-left: 140px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: .3;
+}
+.crew-name{
+  padding-top: 10px;
+  font-size: 40px;
+  padding-left: 140px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: .8;
+  font-weight: lighter;
+}
+.crow-paragraph{
+  padding-left: 140px;
+  padding-top: 25px;
+  width: 550px;
+  font-size: 15px ; 
+  opacity: .4; 
+}
+.crew-img{
+  float: right;
+position: relative;
+bottom: 410px;
+right: 60px;
+}
+.small-circle{
+  height: 14px;
+  width: 14px;
+  background-color: rgb(89, 88, 88);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 25px;
+}
+.cire{
+  background-color: #fff;
+}
+.scroll{
+  padding-left: 125px;
+  padding-top: 80px;
+}
+.cir{
+  background-color: #fff;
+}
+.big-circle{
+  height: 60px;
+  width: 60px;
+  background-color: rgb(250, 247, 247);
+  border-radius: 50%;
+  color: rgb(37, 37, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(100, 98, 98);
+}
+.big-circle2{
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 50%;
+  border: 2px solid rgb(100, 98, 98);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.scroll-tech{
+  margin-left: 130px;
+  margin-top: 120px;
+}
+.technology-content{
+  width:600px;
+  padding-top: 110px;
+  padding-left: 40px;
+  
+}
+.left-part{
+  display: flex;
+  justify-content: space-between;
+  width:850px;
+  margin-left: 40px;
+
+}
+.technology-pharagraph{
+  font-size: 16px; 
+  opacity: .6; 
+  width:430px;
+  padding-top: 10px;
+}
+.tech{
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  opacity: .6;
+font-size: 10px;
+
+}
+.tech-name{
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  white-space: 2px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.tech-img{
+margin-left: 200px;
+position: relative;
+bottom: 40px;
+}
+.page{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.white{
+  background-color: #fff;
+  color: rgb(37, 37, 56);
+  font-weight: bold;
+
+
+}
+.black{
+  background-color: transparent;
+  color: #fff;
+}
