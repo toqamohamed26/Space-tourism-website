@@ -2,6 +2,8 @@ let plant = document.getElementById("plants-content");
 let plantImage = document.getElementById("img");
 
 function mars() {
+    plantImage.src = "./images/image-mars.png";
+
     plant.innerHTML = `<div >
     <h1 class="plant-title"> Mars</h1> <br>
     <p style="font-size: 15px ; opacity: .5;"> Don’t forget to pack your hiking boots. You’ll need them to tackle
@@ -86,10 +88,10 @@ function titan() {
     let border2 = document.getElementById('moon').classList;
     let border3 = document.getElementById('europa').classList;
     let border4 = document.getElementById('titan').classList;
-    border3.add('open')
+    border4.add('open')
     border1.remove('open')
     border2.remove('open')
-    border4.remove('open')
+    border3.remove('open')
 }
 
 function europa() {
